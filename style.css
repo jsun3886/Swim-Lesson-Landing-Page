@@ -5,6 +5,7 @@ body {
   
   min-height: 100vh;  
   background-image: url("imgages/poolBackground.jpg");
+  
   margin: 0;
 }
 /* The header section of the CSS Style                        */
@@ -48,6 +49,7 @@ a{
     flex-grow: 0;
     justify-content: space-between;
     padding-bottom: 32px;
+    
 }
 
 .title-left{
@@ -106,7 +108,9 @@ a{
     flex-wrap: wrap;
     align-items: center;
     gap: 32px;
-
+    padding: 8px;
+    background-color: #1f2937;
+    border-radius: 4px;
     
 }
 
