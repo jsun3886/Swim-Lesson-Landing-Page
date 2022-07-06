@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   
   min-height: 100vh;  
-  
+  background-image: url("imgages/poolBackground.jpg");
     
 }
 /* The header section of the CSS Style                        */
@@ -16,7 +16,8 @@ body {
     padding: 8px;
     display: flex;
     flex-direction: column;
-    
+    padding-left:5%;
+    padding-right: 5%;
     
 
 }
@@ -29,6 +30,7 @@ img{
     justify-content: space-between;
     color: white;
     font-size: 24px;
+    
     
 }
 .nav_links{
@@ -44,7 +46,8 @@ a{
 .title{
     display: flex;
     flex-grow: 0;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 32px;
 }
 
 .title-left{
@@ -80,12 +83,18 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #ffffff;
+    text-shadow: #1f2937;
 }
 
 .content p{
     font-size:36px ;
     font-weight: 900;
-    color :#1f2937;
+    background-color: #1f2937;
+    border-radius: 8px;
+    padding: 4px;
+
+    
 }
 
 .infoCards{
@@ -114,15 +123,86 @@ a{
    max-width: 100% ;
     
 }
+.infoCard div{
+    text-align: center;
+    color: #ffffff;
+    background-color: #1f2937;
+    text-shadow: #1f2937;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/*The Quote section of the Css               */
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px;
+    align-items: center;
+    gap: 32px;
+}
+
+.startQuote{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    max-width: 80%;
+    flex-wrap: wrap;
+   
+}
+
+.endQuote {
+    display: flex;
+    padding-inline-start: 25%;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+
+}
 
 
+/*   the Call to actioon sign up section   */
+
+.callToAction{
+    display: flex;
+    margin: 32px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:28px;
+    border-radius: 12px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: space-around;
 
 
+}
+.ctaText{
+    display: flex;
+    flex-direction: column;
+}
+.callToAction p{
+    font-size: 24px;
+    font-weight: 700;
+    margin:0;
+}
+
+.callToAction button {
+    border-color: #e5e7eb;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+
+}
 
 /* The Footer section of the Css                     */
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding:18px;
 }
