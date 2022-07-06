@@ -2,11 +2,12 @@ body {
     
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
   min-height: 100vh;  
+  
     
 }
-
+/* The header section of the CSS Style                        */
 .header{
     
     background-color: #1f2937;
@@ -72,6 +73,53 @@ a{
 
 
 }
+
+/* The content section of the CSS                                             */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content p{
+    font-size:36px ;
+    font-weight: 900;
+    color :#1f2937;
+}
+
+.infoCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+
+    
+}
+
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 8px;
+    align-items: center;
+}
+
+.infoCard img{
+    border-radius: 16px;
+    border-color: #3382f6 ;
+    border-width: 8px;
+   max-width: 100% ;
+    
+}
+
+
+
+
+
+/* The Footer section of the Css                     */
 .footer{
     display: flex;
     justify-content: center;
